@@ -1,16 +1,27 @@
 # Homebrew farmotive k8s
 This tap contains formulas for farmotive k8s utilities.
 
-# Install
-`brew tap farmotive/k8s`, then `brew install <formula>`.
+## Install
+Use the [Homebrew](https://brew.sh/) package manager with one of the options below (in order of preference):
+- Managed by [Brewfile](https://github.com/Homebrew/homebrew-bundle):
+  ```sh
+  tap 'homebrew/bundle'
+  tap 'farmotive/k8s'
+  brew '<formula>'
+  ```
+- Unmanaged CLI:
+  ```sh
+  brew tap farmotive/k8s && brew install <formula>
+  ```
+- If a formula conflicts with one from Homebrew/homebrew or another tap, you can specify the full formula namespace:
+  ```sh
+  brew install farmotive/k8s/<formula>
+  ```
+- Or full formula URL:
+  ```sh
+  brew install https://raw.githubusercontent.com/farmotive/homebrew-k8s/master/Forumla/<formula>.rb
+  ```
 
-If a formula conflicts with one from Homebrew/homebrew or another tap, you can `brew install farmotive/k8s/<formula>`.
-
-Or install via URL:
-
-```
-brew install https://raw.githubusercontent.com/farmotive/homebrew-k8s/master/Forumla/kex.rb
-```
 ## Acceptable Formulas
 This tap should contain only forumlas that make k8s faster and easier. See Homebrew’s [Acceptable Formulae](https://github.com/Homebrew/brew/blob/master/docs/Acceptable-Formulae.md) doc for general criteria.
 
