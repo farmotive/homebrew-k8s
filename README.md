@@ -23,7 +23,7 @@ Use the [Homebrew](https://brew.sh/) package manager with one of the options bel
   ```
 
 ## Acceptable Formulas
-This tap should contain only forumlas that make k8s faster and easier. See Homebrew’s [Acceptable Formulae](https://github.com/Homebrew/brew/blob/master/docs/Acceptable-Formulae.md) doc for general criteria.
+This tap should contain only formulas that make k8s faster and easier. See Homebrew’s [Acceptable Formulae](https://github.com/Homebrew/brew/blob/master/docs/Acceptable-Formulae.md) doc for general criteria.
 
 ## Troubleshooting
 - Run `brew update` (twice)
