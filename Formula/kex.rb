@@ -1,8 +1,8 @@
 class Kex < Formula
   desc "Quick k8s pod exec utility"
   homepage "https://github.com/farmotive/kex"
-  url "https://github.com/farmotive/kex/archive/0.3.0.tar.gz"
-  sha256 "ee282f444039831f44c0670e35ca85b57922972e2bc9bd569fa7ed460ad98b72"
+  url "https://github.com/farmotive/kex/archive/v1.0.0.tar.gz"
+  sha256 "b59c1a4fe91c190dbf5e7402b6e281b15f2bd14581177b9e51e7e5cf893581cf"
 
   depends_on "kubernetes-cli"  => :recommended
 
