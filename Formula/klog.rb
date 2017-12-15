@@ -1,8 +1,8 @@
 class Klog < Formula
   desc "Quick k8s pod log utility"
   homepage "https://github.com/farmotive/klog"
-  url "https://github.com/farmotive/klog/archive/1.0.0.tar.gz"
-  sha256 "2b2ae7fb6381bea0e967757b170ba70cb6420f39354581bdcca14b69443d42f4"
+  url "https://github.com/farmotive/klog/archive/1.1.0.tar.gz"
+  sha256 "5e5bc372569f2d9d86c3f13a19414137b338212b994bfeb84c09979f9f6cc94c"
 
   depends_on "kubernetes-cli"  => :recommended
 
