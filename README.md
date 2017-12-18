@@ -19,7 +19,7 @@ Use the [Homebrew](https://brew.sh/) package manager with one of the options bel
   ```
 - Or full formula URL:
   ```sh
-  brew install https://raw.githubusercontent.com/farmotive/homebrew-k8s/master/Forumla/<formula>.rb
+  brew install https://raw.githubusercontent.com/farmotive/homebrew-k8s/master/Formula/<formula>.rb
   ```
 
 ## Acceptable Formulas
