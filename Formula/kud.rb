@@ -2,7 +2,7 @@ class Kud < Formula
   desc "Quick k8s pod delete utility"
   homepage "https://github.com/farmotive/kud"
   url "https://github.com/farmotive/kud/archive/v0.1.1.tar.gz"
-  sha256 "bf9b4f8f8cd0764efdd8a40eb2fe21feca14db4394fd25d539453e5f7f55134e"
+  sha256 "dbf26f5f2db1f11b979a4e494265c89b395b43b30a31f1ba53519943be013a79"
 
   depends_on "kubernetes-cli"  => :recommended
 
