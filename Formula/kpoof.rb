@@ -1,8 +1,8 @@
 class Kpoof < Formula
   desc "Quick k8s pod port-forward utility"
   homepage "https://github.com/farmotive/kpoof"
-  url "https://github.com/farmotive/kpoof/archive/2.0.2.tar.gz"
-  sha256 "675292dcd9d7fc227dd53c75509764f08511cd1c1d0848db575884e6c639828c"
+  url "https://github.com/farmotive/kpoof/archive/3.0.0.tar.gz"
+  sha256 "de692f7bd49b799fd584c3f457e647883e52372d369b1694f23a66b770f364c1"
 
   depends_on "kubernetes-cli"  => :recommended
 
